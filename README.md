@@ -4,6 +4,7 @@
 - Opensea : https://testnets.opensea.io/collection/pabtox-v4
 
 - mint to get nft (paid...haha...but on rinkeby)
+- it's totally on chain as a svg on EVM
 - nft composed of dynamic words in (pseudo random)
 
 ---
