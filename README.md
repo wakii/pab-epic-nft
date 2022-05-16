@@ -1,15 +1,20 @@
-# Basic Sample Hardhat Project
+# P2X NFT project
+- mint to get nft (paid...haha...but on rinkeby)
+- nft composed of dynamic words in (pseudo random)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+---
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+- To run this frontend app
 ```
+cd packages/react-app
+npm start
+npm run start
+```
+---
+- Smart contract file written in Solidity, deployed with hardhat
+```
+cd packages/hardhat/
+npx hardhat compile
+ npx hardhat run scripts/run.js --network rinkeby   
+```
+
