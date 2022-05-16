@@ -19,6 +19,6 @@ npm run start
 ```
 cd packages/hardhat/
 npx hardhat compile
- npx hardhat run scripts/run.js --network rinkeby   
+npx hardhat run scripts/run.js --network rinkeby   
 ```
 
